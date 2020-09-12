@@ -6,6 +6,30 @@
     <title>Tip Calculator</title>
   </head>
   <body>
+    <form>
+      <p>Please select a tip amount:</p>
+      <div>
+        <input type="radio" id="tipAmt"
+         name="tips" value="0.1" checked>
+        <label for="tipAmt">10%</label>
+    
+        <input type="radio" id="tipAmt2"
+         name="tips" value="0.15">
+        <label for="tipAmt2">15%</label>
+    
+        <input type="radio" id="tipAmt3"
+         name="tips" value="0.18">
+        <label for="tipAmt3">18%</label>
+
+        <input type="radio" id="tipAmt4"
+         name="tips" value="0.25">
+        <label for="tipAmt4">25%</label>
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+    <pre id="tips"></pre>
     <p>How much does the meal cost? <input id="mealAmount" /></p>
     <p>The tip should be <input id="tipAmount" /></p>
     <script src="./index.js"></script>
